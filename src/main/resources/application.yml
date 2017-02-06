@@ -1,0 +1,13 @@
+spring:
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/tejkumar51/nemesis-cloud-repo
+                  
+
+logging:
+    pattern:
+        console: "[APP] %date{\"yyyy-MM-dd'T'HH:mm:ss,SSSXXX\"} [%thread] %-5level %logger{36} - %msg%n"
+    level:
+        root: INFO

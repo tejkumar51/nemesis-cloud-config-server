@@ -1,0 +1,7 @@
+---
+applications:
+- name: cf-nemesis-cloud-config-server
+  memory: 512M
+  instances: 1
+  random-route: true
+  path: build/libs/nemesis-cloud-config-server.jar
